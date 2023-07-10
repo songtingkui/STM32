@@ -1,0 +1,28 @@
+--cpu Cortex-M0
+".\objects\main.o"
+".\objects\hk32f030m_it.o"
+".\objects\led.o"
+".\objects\pwm.o"
+".\objects\uart.o"
+".\objects\03t.o"
+".\objects\blinker.o"
+".\objects\eeprom.o"
+".\objects\adc.o"
+".\objects\key.o"
+".\objects\hk32f030m_rcc.o"
+".\objects\hk32f030m_gpio.o"
+".\objects\hk32f030m_tim.o"
+".\objects\hk32f030m_usart.o"
+".\objects\hk32f030m_exti.o"
+".\objects\hk32f030m_misc.o"
+".\objects\hk32f030m_syscfg.o"
+".\objects\hk32f030m_flash.o"
+".\objects\hk32f030m_adc.o"
+".\objects\system_hk32f030m.o"
+".\objects\keil_startup_hk32f030m.o"
+".\objects\delay.o"
+".\objects\softuart.o"
+--strict --scatter ".\Objects\LED.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\LED.map" -o .\Objects\LED.axf

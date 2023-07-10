@@ -1,0 +1,525 @@
+Dependencies for Project 'Project', Target 'HK32F030MF4P6': (DO NOT MODIFY !)
+F (..\Source\User\main.c)(0x6210BDC0)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Source\Libraries\StdPeriph_Driver -I ..\Source\Libraries\User_Lib -I ..\Source\Libraries\StdPeriph_Driver\inc -I ..\Source\Libraries\StdPeriph_Driver\src -I ..\Source\Libraries\CMSIS\CM0\Core -I ..\Source\Libraries\CMSIS\CM0 -I ..\Source\Libraries\CMSIS\HK32F030M\Include -I ..\Source\Libraries\CMSIS\HK32F030M\Source -I ..\Source\Driver -I ..\Source\User-I.\RTE\_HK32F030MF4P6-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DHK32F030M -DHK32F030MF4P6-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\hk32f030m.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cm0.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmInstr.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\cmsis_armcc.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmFunc.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\system_hk32f030m.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_def.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (..\Source\Libraries\StdPeriph_Driver\hk32f030m_conf.h)(0x61B9CF94)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_rcc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_exti.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_flash.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_gpio.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_misc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_adc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_syscfg.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_tim.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_usart.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC77604)
+I (..\Source\Libraries\User_Lib\delay.h)(0x61C571E8)
+I (..\Source\Driver\uart.h)(0x61C5718C)
+I (..\Source\Driver\pwm.h)(0x61C573B5)
+I (..\Source\Driver\blinker.h)(0x61CDA8CE)
+I (..\Source\Driver\03T.h)(0x61D2A27E)
+I (..\Source\Driver\led.h)(0x61CD5EF5)
+I (..\Source\Driver\ADC.h)(0x61D2B692)
+I (..\Source\Driver\key.h)(0x61CAA6B5)
+I (..\Source\Libraries\User_Lib\softUart.h)(0x61DEC091)
+F (..\Source\User\hk32f030m_it.c)(0x61B9CE6D)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Source\Libraries\StdPeriph_Driver -I ..\Source\Libraries\User_Lib -I ..\Source\Libraries\StdPeriph_Driver\inc -I ..\Source\Libraries\StdPeriph_Driver\src -I ..\Source\Libraries\CMSIS\CM0\Core -I ..\Source\Libraries\CMSIS\CM0 -I ..\Source\Libraries\CMSIS\HK32F030M\Include -I ..\Source\Libraries\CMSIS\HK32F030M\Source -I ..\Source\Driver -I ..\Source\User-I.\RTE\_HK32F030MF4P6-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DHK32F030M -DHK32F030MF4P6-o .\objects\hk32f030m_it.o --omf_browse .\objects\hk32f030m_it.crf --depend .\objects\hk32f030m_it.d)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\hk32f030m.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cm0.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmInstr.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\cmsis_armcc.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmFunc.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\system_hk32f030m.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_def.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (..\Source\Libraries\StdPeriph_Driver\hk32f030m_conf.h)(0x61B9CF94)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_rcc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_exti.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_flash.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_gpio.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_misc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_adc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_syscfg.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_tim.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_usart.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC77604)
+I (..\Source\User\hk32f030m_it.h)(0x614ED583)
+F (..\Source\Driver\led.c)(0x61C58867)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Source\Libraries\StdPeriph_Driver -I ..\Source\Libraries\User_Lib -I ..\Source\Libraries\StdPeriph_Driver\inc -I ..\Source\Libraries\StdPeriph_Driver\src -I ..\Source\Libraries\CMSIS\CM0\Core -I ..\Source\Libraries\CMSIS\CM0 -I ..\Source\Libraries\CMSIS\HK32F030M\Include -I ..\Source\Libraries\CMSIS\HK32F030M\Source -I ..\Source\Driver -I ..\Source\User-I.\RTE\_HK32F030MF4P6-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DHK32F030M -DHK32F030MF4P6-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\hk32f030m.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cm0.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmInstr.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\cmsis_armcc.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmFunc.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\system_hk32f030m.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_def.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (..\Source\Libraries\StdPeriph_Driver\hk32f030m_conf.h)(0x61B9CF94)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_rcc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_exti.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_flash.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_gpio.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_misc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_adc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_syscfg.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_tim.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_usart.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC77604)
+I (..\Source\Driver\led.h)(0x61CD5EF5)
+I (..\Source\Libraries\User_Lib\delay.h)(0x61C571E8)
+F (..\Source\Driver\pwm.c)(0x61C573B5)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Source\Libraries\StdPeriph_Driver -I ..\Source\Libraries\User_Lib -I ..\Source\Libraries\StdPeriph_Driver\inc -I ..\Source\Libraries\StdPeriph_Driver\src -I ..\Source\Libraries\CMSIS\CM0\Core -I ..\Source\Libraries\CMSIS\CM0 -I ..\Source\Libraries\CMSIS\HK32F030M\Include -I ..\Source\Libraries\CMSIS\HK32F030M\Source -I ..\Source\Driver -I ..\Source\User-I.\RTE\_HK32F030MF4P6-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DHK32F030M -DHK32F030MF4P6-o .\objects\pwm.o --omf_browse .\objects\pwm.crf --depend .\objects\pwm.d)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\hk32f030m.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cm0.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmInstr.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\cmsis_armcc.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmFunc.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\system_hk32f030m.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_def.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (..\Source\Libraries\StdPeriph_Driver\hk32f030m_conf.h)(0x61B9CF94)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_rcc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_exti.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_flash.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_gpio.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_misc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_adc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_syscfg.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_tim.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_usart.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC77604)
+I (..\Source\Driver\pwm.h)(0x61C573B5)
+F (..\Source\Driver\uart.c)(0x61CA9B15)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Source\Libraries\StdPeriph_Driver -I ..\Source\Libraries\User_Lib -I ..\Source\Libraries\StdPeriph_Driver\inc -I ..\Source\Libraries\StdPeriph_Driver\src -I ..\Source\Libraries\CMSIS\CM0\Core -I ..\Source\Libraries\CMSIS\CM0 -I ..\Source\Libraries\CMSIS\HK32F030M\Include -I ..\Source\Libraries\CMSIS\HK32F030M\Source -I ..\Source\Driver -I ..\Source\User-I.\RTE\_HK32F030MF4P6-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DHK32F030M -DHK32F030MF4P6-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\hk32f030m.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cm0.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmInstr.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\cmsis_armcc.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmFunc.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\system_hk32f030m.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_def.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (..\Source\Libraries\StdPeriph_Driver\hk32f030m_conf.h)(0x61B9CF94)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_rcc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_exti.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_flash.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_gpio.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_misc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_adc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_syscfg.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_tim.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_usart.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC77604)
+I (..\Source\Driver\uart.h)(0x61C5718C)
+I (..\Source\Libraries\User_Lib\delay.h)(0x61C571E8)
+I (..\Source\Driver\03T.h)(0x61D2A27E)
+F (..\Source\Driver\03T.c)(0x63527FE2)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Source\Libraries\StdPeriph_Driver -I ..\Source\Libraries\User_Lib -I ..\Source\Libraries\StdPeriph_Driver\inc -I ..\Source\Libraries\StdPeriph_Driver\src -I ..\Source\Libraries\CMSIS\CM0\Core -I ..\Source\Libraries\CMSIS\CM0 -I ..\Source\Libraries\CMSIS\HK32F030M\Include -I ..\Source\Libraries\CMSIS\HK32F030M\Source -I ..\Source\Driver -I ..\Source\User-I.\RTE\_HK32F030MF4P6-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DHK32F030M -DHK32F030MF4P6-o .\objects\03t.o --omf_browse .\objects\03t.crf --depend .\objects\03t.d)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\hk32f030m.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cm0.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmInstr.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\cmsis_armcc.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmFunc.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\system_hk32f030m.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_def.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (..\Source\Libraries\StdPeriph_Driver\hk32f030m_conf.h)(0x61B9CF94)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_rcc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_exti.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_flash.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_gpio.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_misc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_adc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_syscfg.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_tim.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_usart.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC77604)
+I (..\Source\Driver\03T.h)(0x61D2A27E)
+I (..\Source\Driver\uart.h)(0x61C5718C)
+I (..\Source\Driver\blinker.h)(0x61CDA8CE)
+I (..\Source\Driver\pwm.h)(0x61C573B5)
+I (..\Source\Libraries\User_Lib\delay.h)(0x61C571E8)
+F (..\Source\Driver\blinker.c)(0x61D3971A)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Source\Libraries\StdPeriph_Driver -I ..\Source\Libraries\User_Lib -I ..\Source\Libraries\StdPeriph_Driver\inc -I ..\Source\Libraries\StdPeriph_Driver\src -I ..\Source\Libraries\CMSIS\CM0\Core -I ..\Source\Libraries\CMSIS\CM0 -I ..\Source\Libraries\CMSIS\HK32F030M\Include -I ..\Source\Libraries\CMSIS\HK32F030M\Source -I ..\Source\Driver -I ..\Source\User-I.\RTE\_HK32F030MF4P6-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DHK32F030M -DHK32F030MF4P6-o .\objects\blinker.o --omf_browse .\objects\blinker.crf --depend .\objects\blinker.d)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\hk32f030m.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cm0.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmInstr.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\cmsis_armcc.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmFunc.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\system_hk32f030m.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_def.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (..\Source\Libraries\StdPeriph_Driver\hk32f030m_conf.h)(0x61B9CF94)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_rcc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_exti.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_flash.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_gpio.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_misc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_adc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_syscfg.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_tim.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_usart.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC77604)
+I (..\Source\Driver\blinker.h)(0x61CDA8CE)
+I (..\Source\Driver\pwm.h)(0x61C573B5)
+I (..\Source\Driver\uart.h)(0x61C5718C)
+I (..\Source\Driver\03T.h)(0x61D2A27E)
+I (..\Source\Libraries\User_Lib\delay.h)(0x61C571E8)
+I (..\Source\Driver\eeprom.h)(0x60BB2BE4)
+F (..\Source\Driver\eeprom.c)(0x60CEA8FB)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Source\Libraries\StdPeriph_Driver -I ..\Source\Libraries\User_Lib -I ..\Source\Libraries\StdPeriph_Driver\inc -I ..\Source\Libraries\StdPeriph_Driver\src -I ..\Source\Libraries\CMSIS\CM0\Core -I ..\Source\Libraries\CMSIS\CM0 -I ..\Source\Libraries\CMSIS\HK32F030M\Include -I ..\Source\Libraries\CMSIS\HK32F030M\Source -I ..\Source\Driver -I ..\Source\User-I.\RTE\_HK32F030MF4P6-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DHK32F030M -DHK32F030MF4P6-o .\objects\eeprom.o --omf_browse .\objects\eeprom.crf --depend .\objects\eeprom.d)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\hk32f030m.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cm0.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmInstr.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\cmsis_armcc.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmFunc.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\system_hk32f030m.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_def.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (..\Source\Libraries\StdPeriph_Driver\hk32f030m_conf.h)(0x61B9CF94)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_rcc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_exti.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_flash.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_gpio.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_misc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_adc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_syscfg.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_tim.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_usart.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC77604)
+I (..\Source\Driver\eeprom.h)(0x60BB2BE4)
+F (..\Source\Driver\ADC.c)(0x61D2E2D2)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Source\Libraries\StdPeriph_Driver -I ..\Source\Libraries\User_Lib -I ..\Source\Libraries\StdPeriph_Driver\inc -I ..\Source\Libraries\StdPeriph_Driver\src -I ..\Source\Libraries\CMSIS\CM0\Core -I ..\Source\Libraries\CMSIS\CM0 -I ..\Source\Libraries\CMSIS\HK32F030M\Include -I ..\Source\Libraries\CMSIS\HK32F030M\Source -I ..\Source\Driver -I ..\Source\User-I.\RTE\_HK32F030MF4P6-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DHK32F030M -DHK32F030MF4P6-o .\objects\adc.o --omf_browse .\objects\adc.crf --depend .\objects\adc.d)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\hk32f030m.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cm0.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmInstr.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\cmsis_armcc.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmFunc.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\system_hk32f030m.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_def.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (..\Source\Libraries\StdPeriph_Driver\hk32f030m_conf.h)(0x61B9CF94)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_rcc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_exti.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_flash.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_gpio.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_misc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_adc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_syscfg.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_tim.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_usart.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC77604)
+I (..\Source\Driver\blinker.h)(0x61CDA8CE)
+I (..\Source\Driver\pwm.h)(0x61C573B5)
+I (..\Source\Driver\ADC.h)(0x61D2B692)
+I (..\Source\Libraries\User_Lib\delay.h)(0x61C571E8)
+F (..\Source\Driver\key.c)(0x61D2AC01)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Source\Libraries\StdPeriph_Driver -I ..\Source\Libraries\User_Lib -I ..\Source\Libraries\StdPeriph_Driver\inc -I ..\Source\Libraries\StdPeriph_Driver\src -I ..\Source\Libraries\CMSIS\CM0\Core -I ..\Source\Libraries\CMSIS\CM0 -I ..\Source\Libraries\CMSIS\HK32F030M\Include -I ..\Source\Libraries\CMSIS\HK32F030M\Source -I ..\Source\Driver -I ..\Source\User-I.\RTE\_HK32F030MF4P6-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DHK32F030M -DHK32F030MF4P6-o .\objects\key.o --omf_browse .\objects\key.crf --depend .\objects\key.d)
+I (..\Source\Driver\key.h)(0x61CAA6B5)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\hk32f030m.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cm0.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmInstr.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\cmsis_armcc.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmFunc.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\system_hk32f030m.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_def.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (..\Source\Libraries\StdPeriph_Driver\hk32f030m_conf.h)(0x61B9CF94)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_rcc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_exti.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_flash.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_gpio.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_misc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_adc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_syscfg.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_tim.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_usart.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC77604)
+I (..\Source\Libraries\User_Lib\delay.h)(0x61C571E8)
+I (..\Source\Driver\blinker.h)(0x61CDA8CE)
+I (..\Source\Driver\pwm.h)(0x61C573B5)
+F (..\Source\Libraries\StdPeriph_Driver\src\hk32f030m_rcc.c)(0x614ED583)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Source\Libraries\StdPeriph_Driver -I ..\Source\Libraries\User_Lib -I ..\Source\Libraries\StdPeriph_Driver\inc -I ..\Source\Libraries\StdPeriph_Driver\src -I ..\Source\Libraries\CMSIS\CM0\Core -I ..\Source\Libraries\CMSIS\CM0 -I ..\Source\Libraries\CMSIS\HK32F030M\Include -I ..\Source\Libraries\CMSIS\HK32F030M\Source -I ..\Source\Driver -I ..\Source\User-I.\RTE\_HK32F030MF4P6-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DHK32F030M -DHK32F030MF4P6-o .\objects\hk32f030m_rcc.o --omf_browse .\objects\hk32f030m_rcc.crf --depend .\objects\hk32f030m_rcc.d)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_rcc.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\hk32f030m.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cm0.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmInstr.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\cmsis_armcc.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmFunc.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\system_hk32f030m.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_def.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (..\Source\Libraries\StdPeriph_Driver\hk32f030m_conf.h)(0x61B9CF94)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_exti.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_flash.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_gpio.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_misc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_adc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_syscfg.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_tim.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_usart.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC77604)
+F (..\Source\Libraries\StdPeriph_Driver\src\hk32f030m_gpio.c)(0x614ED583)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Source\Libraries\StdPeriph_Driver -I ..\Source\Libraries\User_Lib -I ..\Source\Libraries\StdPeriph_Driver\inc -I ..\Source\Libraries\StdPeriph_Driver\src -I ..\Source\Libraries\CMSIS\CM0\Core -I ..\Source\Libraries\CMSIS\CM0 -I ..\Source\Libraries\CMSIS\HK32F030M\Include -I ..\Source\Libraries\CMSIS\HK32F030M\Source -I ..\Source\Driver -I ..\Source\User-I.\RTE\_HK32F030MF4P6-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DHK32F030M -DHK32F030MF4P6-o .\objects\hk32f030m_gpio.o --omf_browse .\objects\hk32f030m_gpio.crf --depend .\objects\hk32f030m_gpio.d)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_gpio.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\hk32f030m.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cm0.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmInstr.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\cmsis_armcc.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmFunc.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\system_hk32f030m.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_def.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (..\Source\Libraries\StdPeriph_Driver\hk32f030m_conf.h)(0x61B9CF94)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_rcc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_exti.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_flash.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_misc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_adc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_syscfg.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_tim.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_usart.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC77604)
+F (..\Source\Libraries\StdPeriph_Driver\src\hk32f030m_tim.c)(0x614ED583)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Source\Libraries\StdPeriph_Driver -I ..\Source\Libraries\User_Lib -I ..\Source\Libraries\StdPeriph_Driver\inc -I ..\Source\Libraries\StdPeriph_Driver\src -I ..\Source\Libraries\CMSIS\CM0\Core -I ..\Source\Libraries\CMSIS\CM0 -I ..\Source\Libraries\CMSIS\HK32F030M\Include -I ..\Source\Libraries\CMSIS\HK32F030M\Source -I ..\Source\Driver -I ..\Source\User-I.\RTE\_HK32F030MF4P6-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DHK32F030M -DHK32F030MF4P6-o .\objects\hk32f030m_tim.o --omf_browse .\objects\hk32f030m_tim.crf --depend .\objects\hk32f030m_tim.d)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_tim.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\hk32f030m.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cm0.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmInstr.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\cmsis_armcc.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmFunc.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\system_hk32f030m.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_def.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (..\Source\Libraries\StdPeriph_Driver\hk32f030m_conf.h)(0x61B9CF94)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_rcc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_exti.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_flash.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_gpio.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_misc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_adc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_syscfg.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_usart.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC77604)
+F (..\Source\Libraries\StdPeriph_Driver\src\hk32f030m_usart.c)(0x614ED583)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Source\Libraries\StdPeriph_Driver -I ..\Source\Libraries\User_Lib -I ..\Source\Libraries\StdPeriph_Driver\inc -I ..\Source\Libraries\StdPeriph_Driver\src -I ..\Source\Libraries\CMSIS\CM0\Core -I ..\Source\Libraries\CMSIS\CM0 -I ..\Source\Libraries\CMSIS\HK32F030M\Include -I ..\Source\Libraries\CMSIS\HK32F030M\Source -I ..\Source\Driver -I ..\Source\User-I.\RTE\_HK32F030MF4P6-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DHK32F030M -DHK32F030MF4P6-o .\objects\hk32f030m_usart.o --omf_browse .\objects\hk32f030m_usart.crf --depend .\objects\hk32f030m_usart.d)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_usart.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\hk32f030m.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cm0.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmInstr.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\cmsis_armcc.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmFunc.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\system_hk32f030m.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_def.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (..\Source\Libraries\StdPeriph_Driver\hk32f030m_conf.h)(0x61B9CF94)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_rcc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_exti.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_flash.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_gpio.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_misc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_adc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_syscfg.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_tim.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC77604)
+F (..\Source\Libraries\StdPeriph_Driver\src\hk32f030m_exti.c)(0x614ED583)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Source\Libraries\StdPeriph_Driver -I ..\Source\Libraries\User_Lib -I ..\Source\Libraries\StdPeriph_Driver\inc -I ..\Source\Libraries\StdPeriph_Driver\src -I ..\Source\Libraries\CMSIS\CM0\Core -I ..\Source\Libraries\CMSIS\CM0 -I ..\Source\Libraries\CMSIS\HK32F030M\Include -I ..\Source\Libraries\CMSIS\HK32F030M\Source -I ..\Source\Driver -I ..\Source\User-I.\RTE\_HK32F030MF4P6-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DHK32F030M -DHK32F030MF4P6-o .\objects\hk32f030m_exti.o --omf_browse .\objects\hk32f030m_exti.crf --depend .\objects\hk32f030m_exti.d)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_exti.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\hk32f030m.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cm0.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmInstr.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\cmsis_armcc.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmFunc.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\system_hk32f030m.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_def.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (..\Source\Libraries\StdPeriph_Driver\hk32f030m_conf.h)(0x61B9CF94)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_rcc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_flash.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_gpio.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_misc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_adc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_syscfg.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_tim.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_usart.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC77604)
+F (..\Source\Libraries\StdPeriph_Driver\src\hk32f030m_misc.c)(0x614ED583)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Source\Libraries\StdPeriph_Driver -I ..\Source\Libraries\User_Lib -I ..\Source\Libraries\StdPeriph_Driver\inc -I ..\Source\Libraries\StdPeriph_Driver\src -I ..\Source\Libraries\CMSIS\CM0\Core -I ..\Source\Libraries\CMSIS\CM0 -I ..\Source\Libraries\CMSIS\HK32F030M\Include -I ..\Source\Libraries\CMSIS\HK32F030M\Source -I ..\Source\Driver -I ..\Source\User-I.\RTE\_HK32F030MF4P6-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DHK32F030M -DHK32F030MF4P6-o .\objects\hk32f030m_misc.o --omf_browse .\objects\hk32f030m_misc.crf --depend .\objects\hk32f030m_misc.d)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_misc.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\hk32f030m.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cm0.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmInstr.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\cmsis_armcc.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmFunc.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\system_hk32f030m.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_def.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (..\Source\Libraries\StdPeriph_Driver\hk32f030m_conf.h)(0x61B9CF94)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_rcc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_exti.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_flash.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_gpio.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_adc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_syscfg.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_tim.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_usart.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC77604)
+F (..\Source\Libraries\StdPeriph_Driver\src\hk32f030m_syscfg.c)(0x614ED583)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Source\Libraries\StdPeriph_Driver -I ..\Source\Libraries\User_Lib -I ..\Source\Libraries\StdPeriph_Driver\inc -I ..\Source\Libraries\StdPeriph_Driver\src -I ..\Source\Libraries\CMSIS\CM0\Core -I ..\Source\Libraries\CMSIS\CM0 -I ..\Source\Libraries\CMSIS\HK32F030M\Include -I ..\Source\Libraries\CMSIS\HK32F030M\Source -I ..\Source\Driver -I ..\Source\User-I.\RTE\_HK32F030MF4P6-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DHK32F030M -DHK32F030MF4P6-o .\objects\hk32f030m_syscfg.o --omf_browse .\objects\hk32f030m_syscfg.crf --depend .\objects\hk32f030m_syscfg.d)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_syscfg.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\hk32f030m.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cm0.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmInstr.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\cmsis_armcc.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmFunc.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\system_hk32f030m.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_def.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (..\Source\Libraries\StdPeriph_Driver\hk32f030m_conf.h)(0x61B9CF94)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_rcc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_exti.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_flash.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_gpio.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_misc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_adc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_tim.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_usart.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC77604)
+F (..\Source\Libraries\StdPeriph_Driver\src\hk32f030m_flash.c)(0x614ED583)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Source\Libraries\StdPeriph_Driver -I ..\Source\Libraries\User_Lib -I ..\Source\Libraries\StdPeriph_Driver\inc -I ..\Source\Libraries\StdPeriph_Driver\src -I ..\Source\Libraries\CMSIS\CM0\Core -I ..\Source\Libraries\CMSIS\CM0 -I ..\Source\Libraries\CMSIS\HK32F030M\Include -I ..\Source\Libraries\CMSIS\HK32F030M\Source -I ..\Source\Driver -I ..\Source\User-I.\RTE\_HK32F030MF4P6-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DHK32F030M -DHK32F030MF4P6-o .\objects\hk32f030m_flash.o --omf_browse .\objects\hk32f030m_flash.crf --depend .\objects\hk32f030m_flash.d)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_flash.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\hk32f030m.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cm0.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmInstr.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\cmsis_armcc.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmFunc.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\system_hk32f030m.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_def.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (..\Source\Libraries\StdPeriph_Driver\hk32f030m_conf.h)(0x61B9CF94)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_rcc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_exti.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_gpio.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_misc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_adc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_syscfg.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_tim.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_usart.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC77604)
+F (..\Source\Libraries\StdPeriph_Driver\src\hk32f030m_adc.c)(0x61B85D11)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Source\Libraries\StdPeriph_Driver -I ..\Source\Libraries\User_Lib -I ..\Source\Libraries\StdPeriph_Driver\inc -I ..\Source\Libraries\StdPeriph_Driver\src -I ..\Source\Libraries\CMSIS\CM0\Core -I ..\Source\Libraries\CMSIS\CM0 -I ..\Source\Libraries\CMSIS\HK32F030M\Include -I ..\Source\Libraries\CMSIS\HK32F030M\Source -I ..\Source\Driver -I ..\Source\User-I.\RTE\_HK32F030MF4P6-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DHK32F030M -DHK32F030MF4P6-o .\objects\hk32f030m_adc.o --omf_browse .\objects\hk32f030m_adc.crf --depend .\objects\hk32f030m_adc.d)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_adc.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\hk32f030m.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cm0.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmInstr.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\cmsis_armcc.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmFunc.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\system_hk32f030m.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_def.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (..\Source\Libraries\StdPeriph_Driver\hk32f030m_conf.h)(0x61B9CF94)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_rcc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_exti.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_flash.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_gpio.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_misc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_syscfg.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_tim.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_usart.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC77604)
+F (..\Source\Libraries\CMSIS\HK32F030M\Source\system_hk32f030m.c)(0x614ED583)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Source\Libraries\StdPeriph_Driver -I ..\Source\Libraries\User_Lib -I ..\Source\Libraries\StdPeriph_Driver\inc -I ..\Source\Libraries\StdPeriph_Driver\src -I ..\Source\Libraries\CMSIS\CM0\Core -I ..\Source\Libraries\CMSIS\CM0 -I ..\Source\Libraries\CMSIS\HK32F030M\Include -I ..\Source\Libraries\CMSIS\HK32F030M\Source -I ..\Source\Driver -I ..\Source\User-I.\RTE\_HK32F030MF4P6-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DHK32F030M -DHK32F030MF4P6-o .\objects\system_hk32f030m.o --omf_browse .\objects\system_hk32f030m.crf --depend .\objects\system_hk32f030m.d)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\hk32f030m.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cm0.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmInstr.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\cmsis_armcc.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmFunc.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\system_hk32f030m.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_def.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (..\Source\Libraries\StdPeriph_Driver\hk32f030m_conf.h)(0x61B9CF94)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_rcc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_exti.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_flash.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_gpio.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_misc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_adc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_syscfg.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_tim.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_usart.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC77604)
+F (..\Source\Libraries\CMSIS\HK32F030M\Source\KEIL_Startup_hk32f030m.s)(0x614ED583)(--cpu Cortex-M0 -g --apcs=interwork -I.\RTE\_HK32F030MF4P6-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 525"--list .\listings\keil_startup_hk32f030m.lst --xref -o .\objects\keil_startup_hk32f030m.o --depend .\objects\keil_startup_hk32f030m.d)
+F (..\Doc\Readme.txt)(0x614ED583)()
+F (..\Source\Libraries\User_Lib\delay.c)(0x62105E0B)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Source\Libraries\StdPeriph_Driver -I ..\Source\Libraries\User_Lib -I ..\Source\Libraries\StdPeriph_Driver\inc -I ..\Source\Libraries\StdPeriph_Driver\src -I ..\Source\Libraries\CMSIS\CM0\Core -I ..\Source\Libraries\CMSIS\CM0 -I ..\Source\Libraries\CMSIS\HK32F030M\Include -I ..\Source\Libraries\CMSIS\HK32F030M\Source -I ..\Source\Driver -I ..\Source\User-I.\RTE\_HK32F030MF4P6-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DHK32F030M -DHK32F030MF4P6-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\hk32f030m.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cm0.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmInstr.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\cmsis_armcc.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmFunc.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\system_hk32f030m.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_def.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (..\Source\Libraries\StdPeriph_Driver\hk32f030m_conf.h)(0x61B9CF94)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_rcc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_exti.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_flash.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_gpio.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_misc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_adc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_syscfg.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_tim.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_usart.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC77604)
+I (..\Source\Libraries\User_Lib\delay.h)(0x61C571E8)
+F (..\Source\Libraries\User_Lib\softUart.c)(0x6210BEC6)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Source\Libraries\StdPeriph_Driver -I ..\Source\Libraries\User_Lib -I ..\Source\Libraries\StdPeriph_Driver\inc -I ..\Source\Libraries\StdPeriph_Driver\src -I ..\Source\Libraries\CMSIS\CM0\Core -I ..\Source\Libraries\CMSIS\CM0 -I ..\Source\Libraries\CMSIS\HK32F030M\Include -I ..\Source\Libraries\CMSIS\HK32F030M\Source -I ..\Source\Driver -I ..\Source\User-I.\RTE\_HK32F030MF4P6-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DHK32F030M -DHK32F030MF4P6-o .\objects\softuart.o --omf_browse .\objects\softuart.crf --depend .\objects\softuart.d)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\hk32f030m.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cm0.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmInstr.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\cmsis_armcc.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmFunc.h)(0x614ED583)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\system_hk32f030m.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_def.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (..\Source\Libraries\StdPeriph_Driver\hk32f030m_conf.h)(0x61B9CF94)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_rcc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_exti.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_flash.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_gpio.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_misc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_adc.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_syscfg.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_tim.h)(0x614ED583)
+I (..\Source\Libraries\StdPeriph_Driver\inc\hk32f030m_usart.h)(0x614ED583)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC77604)
+I (..\Source\Libraries\User_Lib\softUart.h)(0x61DEC091)
